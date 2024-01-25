@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <title>Encriptador challenge</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="https://aprende.goodneighbors.cl/wp-content/uploads/2022/02/ONE_logo_rgb-768x408.png" alt="logo">
+        <div class="nombre">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvDUD5pw_FmJfWhYHhDh5_x5D2zUhHsE2z40WJ75HUxDNBIlKQbvRqe6o1F-J14k_H--iXcPafwv8jtfjAGJ97HaegFnRowb6glJ_hkF4jAzc-5zStLFnFiqwEd3IYoywRHLxhoLMuItYzVOa05Ibabz0P75M8JIy66wzQNPJYh3W2Ykrg8SJoIr3Kckg5/s320/fotos%20de%20edgar.png" alt="">
+            <h3>Edgar Romero Cuc Chocoj</h3>
+        </div>
+    </header>
+    <main>
+        
+        <section class="seccion1">
+            <h3>ENCRIPTADOR DE PALABRAS</h3>
+            <div class="alerta">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="contenedorcajatexto">
+                <textarea placeholder="Ingrese el texto aqui" class="cajatexto"></textarea>
+            </div>
+            <div id="mensaje-modal">
+                <p id="mensaje-alerta"></p>
+            </div>
+
+            <div class="contenedor-botones">
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="contenedor-resultado">
+                <div class="palabra-ocultar">
+                    <i class="ri-input-cursor-move"></i>
+                    <p>¿Qué palabra especial tienes en mente?</p>  
+                </div>
+                <div class="contenedor-texto">
+                <p class="texto-resultado"></p>
+                </div>
+            </div>
+          
+            <div id="mensaje-modal">
+                <p id="mensaje-alerta"></p>
+            </div>
+            <div class="contenedor-copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+                <input type="button" class="btn-eliminar" value="Eliminar">
+            </div>
+          
+
+        </section>
+    </main>
+    <footer>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/edgar-romero-cuc-chocoj-ba1897272/" target="_blank" title="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+            <a href="https://github.com/edgarromero1994" target="_blank" title="GitHub"><i class="ri-github-fill"></i></a>
+        </div>
+        <p>Edgar Romero Cuc Chocoj &copy; <i class="ri-heart-fill"></i> <span id="year"></span></p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
