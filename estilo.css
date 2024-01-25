@@ -221,6 +221,10 @@ body {
     .seccion2 {
       margin-top: 10px;
     }
+
+    .contenedor-resultado {
+    height: 100px;
+    }
   
     .nombre h3 {
       display: none;
