@@ -55,7 +55,7 @@ body {
   }
   
   /* Estilos para la sección 1 */
-   input {
+   button {
     background-color: #007bff; /* Color del botón */
     color: #fff;
     padding: 10px;
@@ -64,11 +64,14 @@ body {
     cursor: pointer;
     margin-top: 10px;
     width: 100%;
+    font-size: 15px;
   }
   
-  input:hover{
+  button:hover{
     background-color: #0056b3;
   }
+
+ 
   
   .btn-eliminar {
     background-color: #f00034;  
@@ -104,17 +107,28 @@ body {
   }
   
   .alerta {
-    background-color: #d5d2d2;  
+    background-color: #efebeb;  
     padding: 5px;
     border-radius: 5px;
     margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .alerta i {
+    color: #f00034;
+    font-size: 1.5rem;
+    margin-right: 10px;
   }
   
   .contenedor-botones {
     display: flex;
     gap: 10px;
+    
   }
-  
+
   /* Estilos para la sección 2 */
   .seccion2 {
     flex: 1;
@@ -224,6 +238,7 @@ body {
 
     .contenedor-resultado {
     height: 100px;
+    
     }
   
     .nombre h3 {

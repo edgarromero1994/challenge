@@ -15,7 +15,7 @@
     <header>
         <img class="logo" src="https://aprende.goodneighbors.cl/wp-content/uploads/2022/02/ONE_logo_rgb-768x408.png" alt="logo">
         <div class="nombre">
-            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvDUD5pw_FmJfWhYHhDh5_x5D2zUhHsE2z40WJ75HUxDNBIlKQbvRqe6o1F-J14k_H--iXcPafwv8jtfjAGJ97HaegFnRowb6glJ_hkF4jAzc-5zStLFnFiqwEd3IYoywRHLxhoLMuItYzVOa05Ibabz0P75M8JIy66wzQNPJYh3W2Ykrg8SJoIr3Kckg5/s320/fotos%20de%20edgar.png" alt="">
+            <a href="https://www.linkedin.com/in/edgar-romero-cuc-chocoj-ba1897272/" target="_blank" title="LinkedIn"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvDUD5pw_FmJfWhYHhDh5_x5D2zUhHsE2z40WJ75HUxDNBIlKQbvRqe6o1F-J14k_H--iXcPafwv8jtfjAGJ97HaegFnRowb6glJ_hkF4jAzc-5zStLFnFiqwEd3IYoywRHLxhoLMuItYzVOa05Ibabz0P75M8JIy66wzQNPJYh3W2Ykrg8SJoIr3Kckg5/s320/fotos%20de%20edgar.png" alt=""></a>
             <h3>Edgar Romero Cuc Chocoj</h3>
         </div>
     </header>
@@ -24,18 +24,24 @@
         <section class="seccion1">
             <h3>ENCRIPTADOR DE PALABRAS</h3>
             <div class="alerta">
+                <i class="ri-error-warning-line"></i>
                 <p>Solo letras minúsculas y sin acentos</p>
             </div>
             <div class="contenedorcajatexto">
                 <textarea placeholder="Ingrese el texto aqui" class="cajatexto"></textarea>
             </div>
             <div id="mensaje-modal">
-                <p id="mensaje-alerta"></p>
+                
+                <p id="mensaje-alerta"> </p>
             </div>
 
             <div class="contenedor-botones">
-                <input type="button" class="btn-encriptar" value="Encriptar">
-                <input type="button" class="btn-desencriptar" value="Desencriptar">
+                <button type="button" class="btn-encriptar" value="Encriptar">
+                    <i class="ri-folder-keyhole-line"></i>
+                    Encriptar</button>
+                <button type="button" class="btn-desencriptar" value="Desencriptar">
+                    <i class="ri-folder-keyhole-fill"></i>
+                    Desencriptar</button>
             </div>
         </section>
         <section class="seccion2">
@@ -53,8 +59,13 @@
                 <p id="mensaje-alerta"></p>
             </div>
             <div class="contenedor-copiar">
-                <input type="button" class="btn-copiar" value="Copiar">
-                <input type="button" class="btn-eliminar" value="Eliminar">
+                <button class="btn-copiar" value="Copiar"> 
+                    <i class="ri-file-copy-line"></i> Copiar
+                </button>
+                <button type="button" class="btn-eliminar" value="Eliminar">
+                    <i class="ri-delete-bin-5-fill"></i>
+                    Eliminar
+                </button>
             </div>
           
 
