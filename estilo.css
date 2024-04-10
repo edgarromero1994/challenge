@@ -10,14 +10,18 @@ body {
   }
   
   header {
+    position: fixed;
+    top: 0;
     background-color:#fff;
     color: #1877f2;
     text-align: center;
+    width: 100%;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid #ccc;
+    z-index: 1000;
   }
   
   .logo {
@@ -48,6 +52,7 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
+    margin-top: 100px;
   }
   
   .seccion1 h3 {
